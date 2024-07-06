@@ -1,1 +1,75 @@
 /* your code here */
+body{
+    background-color: #07bc0c;
+  }
+  .product{
+    display: flex;
+    border: 1px solid black;
+    width: 600px;
+    padding: 20px;
+    margin: 27px auto;
+    background-color: white;
+  }
+  .product__photo{
+	margin-left: -80px;
+  	background-color: white;
+  }
+  .photo-container{
+    border: 1px solid #ccc;
+  }
+  .photo-main{
+    background-color: #BBFF33;
+    width: 100%;
+  }
+  .fa-share-alt{
+    color: white;
+    margin: 5px;
+  }
+  .fa-heart-o{
+    color: white;
+    float: right;
+    margin: 7px;
+  }
+  .photo-album ul{
+    display: flex;
+    list-style: none;
+  }
+  .photo-album{
+	margin-left: 19px;
+  }
+  .photo-album ul li{
+    border: 1px solid black;
+    margin: 2px;
+   
+  }
+  .photo-album img{
+    
+  }
+  .product__info{
+	margin-left: 44px;
+  	margin-top: 43px;
+
+  }
+  .title .code{
+	font-size: 11px;
+  }
+  .price {
+	color: red;
+  }
+  .price span{
+	font-size: 39px;
+  }
+  .variant h3{
+	font-size: 10px;
+  }
+  .variant ul{
+	display: flex;
+	list-style: none;
+	margin-left: -57px;
+  }
+  .add-card{
+	background-color: #e74c3c;
+	color: white;
+	padding: 12px 35px 12px 35px;
+	border-radius: 5px;
+  }
